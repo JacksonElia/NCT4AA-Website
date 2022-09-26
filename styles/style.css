@@ -96,45 +96,49 @@ p {
   height: 50%;
 }
 
-.picture-and-text-div .image-div {
-  width: 47%;
+.who-are-we-section .image-div {
   float: left;
+  width: 47%;
 }
 
-.picture-and-text-div .text-and-button-div {
-  width: 47%;
+.who-are-we-section .text-and-button-div {
   float: right;
+  width: 47%;
 }
 
 .text-and-button-div .text-div {
   padding-bottom: 4%;
 }
 
-.button1 {
-  width: 15vw;
-  margin: auto;
-}
-
-.button1 a {
-  background: var(--themeColor);
-  padding: 10% 10%;
-  white-space: nowrap;
-  overflow: hidden;
-  display: block;
-  text-overflow: ellipsis;
-  border-radius: .7vw;
-  border-width: 0;
-  transition: .5s;
-  text-align: center;
-  color: white;
-  text-decoration: none;
-  font-size: 1.5vw;
-}
-
 .take-action-section {
   width: 100%;
-  height: 70vh;
+  height: 100vh;
   overflow: hidden;
+}
+
+#take-action-container h2, h3, p {
+  text-align: center;
+  color: var(--secondaryColor);
+}
+
+#take-action-container {
+  padding: 5%;
+  width: 90%;
+  height: 90%;
+}
+
+#take-action-container .picture-and-text-div {
+  padding-top: 0;
+}
+
+.take-action-section .image-div {
+  float: right;
+  width: 47%;
+}
+
+.take-action-section .text-and-button-div {
+  float: left;
+  width: 47%;
 }
 
 .newsletter-section {}

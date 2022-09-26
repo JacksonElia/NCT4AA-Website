@@ -1,0 +1,24 @@
+.button1 {
+  width: 15vw;
+  margin: auto;
+}
+
+.button1 a {
+  background: var(--themeColor);
+  padding: 10% 10%;
+  white-space: nowrap;
+  overflow: hidden;
+  display: block;
+  text-overflow: ellipsis;
+  border-radius: .7vw;
+  border-width: 0;
+  transition: .5s;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  font-size: 1.5vw;
+}
+
+.button1 a:hover {
+  opacity: 70%;
+}
