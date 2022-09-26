@@ -1,0 +1,16 @@
+footer {
+  background: var(--secondaryThemeColor);
+  height: 15vw;
+}
+
+footer p {
+  color: var(--mainColor);
+}
+
+footer a {
+  color: var(--secondaryColor);
+}
+
+#footer-container {
+  padding: 1%;
+}
