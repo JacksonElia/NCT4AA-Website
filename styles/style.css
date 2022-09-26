@@ -2,27 +2,27 @@
   --mainColor: white;
   --secondaryColor: #202020;
   --tertiaryColor: #b8b8b8;
-  --themeColor: #018D01; /* rgba(1, 141, 1, 1) */
+  --themeColor: #009f00; /* rgba(1, 141, 1, 1) */
 }
 
 html, body {
   padding: 0;
   margin: auto;
   scroll-behavior: smooth;
+  font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
-h1, h2, h3, h4 {
-  font-family: Poppins, "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+h1 {
   font-weight: 600;
   font-style: normal;
   letter-spacing: 0;
   text-transform: none;
   line-height: calc(1.4 * (1 + (1 - 4)/25));
-  font-size: 10vh;
+  font-size: 13vh;
 }
 
 .highlighted {
-  background-color: rgba(1, 141, 1, .7);
+  background-color: rgba(1, 141, 1, .65);
 }
 
 .greeting-section {
@@ -44,9 +44,23 @@ h1, h2, h3, h4 {
   text-align: center;
   z-index: 2;
   position: absolute!important;
-  top: 50%!important;
+  top: 55%!important;
   left: 50%!important;
   transform: translate(-50%, -50%)!important;
   margin: 0!important;
   color: var(--mainColor);
 }
+
+.who-are-we-section {
+  width: 100%;
+  height: 70vh;
+  overflow: hidden;
+}
+
+.take-action-section {
+  width: 100%;
+  height: 70vh;
+  overflow: hidden;
+}
+
+.newsletter-section {}
