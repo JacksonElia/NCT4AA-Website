@@ -10,7 +10,6 @@
   box-sizing: border-box;
   font-size: 2vw;
   background: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, .2), rgba(0, 0, 0, .4));
-
   font-weight: bold;
 }
 
@@ -49,6 +48,7 @@
   color: white;
   position: relative;
   text-decoration: none;
+  font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 .main-nav-item a:hover {
