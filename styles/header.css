@@ -14,6 +14,22 @@
   font-family: Poppins,"proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
+#header-container-normal {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.2% 8% 0.2% 5%;
+  position: absolute;
+  width: 100%;
+  z-index: 3;
+  box-sizing: border-box;
+  font-size: 1.8vw;
+  background: var(--secondaryColor);
+  font-weight: bold;
+  font-family: Poppins,"proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
 #logo {
   width: 10vw;
   padding: 1%;
@@ -26,6 +42,21 @@
 }
 
 #logo img:hover {
+  filter: brightness(1.08);
+}
+
+#logo-normal {
+  width: 7vw;
+  padding: 1%;
+  z-index: 5;
+}
+
+#logo-normal img {
+  width: 7vw;
+  transition: .5s;
+}
+
+#logo-normal img:hover {
   filter: brightness(1.08);
 }
 
@@ -70,6 +101,38 @@
   height: 4px;
 }
 
+.main-nav-item-normal {
+  justify-content: center;
+  vertical-align: center;
+  padding: 2% 0;
+}
+
+.main-nav-item-normal a {
+  transition: all 1s;
+  color: white;
+  position: relative;
+  text-decoration: none;
+}
+
+.main-nav-item-normal a:hover {
+  color: var(--mainColor);
+}
+
+.main-nav-item-normal a:after {
+  transition: all .5s;
+  position: absolute;
+  top: 40px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0;
+  content: '.';
+  color: transparent;
+  background: var(--mainColor);
+  height: 4px;
+}
+
 #main-nav-item-button {
   background: var(--themeColor);
   padding: 2% 3%;
@@ -83,14 +146,22 @@
 }
 
 #main-nav-item-button:hover {
-  opacity: 70%;
+  background: var(--themeColorTransparent);
 }
 
 #main-nav-item-button a:hover {
   color: var(--mainColor);
 }
 
+#main-nav-item-button a:after {
+  background: rgba(0,0,0,0);
+}
+
 .main-nav-item a:hover:after {
+  width: 100%;
+}
+
+.main-nav-item-normal a:hover:after {
   width: 100%;
 }
 

@@ -3,6 +3,7 @@
   --secondaryColor: #0B510A;
   --tertiaryColor: #b8b8b8;
   --themeColor: #009f00; /* rgba(1, 141, 1, 1) */
+  --themeColorTransparent: rgba(1, 141, 1, .76);
   --secondaryThemeColor: #F28C9E;
 }
 
@@ -143,3 +144,24 @@ p {
 }
 
 .newsletter-section {}
+
+.about-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+#about-container {
+  padding: 10%;
+  width: 80%;
+  height: 80%;
+}
+
+.page-title {
+  color: var(--secondaryColor);
+  padding-top: 6%;
+  font-size: 7vw;
+}

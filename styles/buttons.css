@@ -20,5 +20,5 @@
 }
 
 .button1 a:hover {
-  opacity: 70%;
+  background: var(--themeColorTransparent);
 }
