@@ -13,9 +13,9 @@ When some of the members of NCT4AA asked me for help making a website, I couldn'
 ## Colors
 I got the colors from their logo, and added a few of my own.
 
-| Color                                                        | Hex              | RGB           | 
-| ------------------------------------------------------------ | ---------------- | ------------- |
-| Main Theme Color $~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~$ <img alt="color" src="https://user-images.githubusercontent.com/85963782/182092179-9e89b0a9-4074-4ff7-9812-9135e6e9c944.png" width="30" height="12">                 | **#009f00**      | 1, 141, 1   |
-| Secondary Theme Color $~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~$ <img alt="color" src="https://user-images.githubusercontent.com/85963782/182092512-096fa655-0f9a-4bb9-9ace-3fce275c1cae.png" width="30" height="12">                      | **#ff6229**      | 255, 98, 41   |
-| Main Text Color $~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~$ <img alt="color" src="https://user-images.githubusercontent.com/85963782/182092687-1fa550a5-c774-4640-acc6-7e0e2fb46639.png" width="30" height="12">                 | **#ff3854**      | 255, 56, 83   |
-| Secondary Text Color $~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~$ <img alt="color" src="https://user-images.githubusercontent.com/85963782/182094415-af942f2e-d4e4-4c75-be7a-aad571cb7d9f.png" width="30" height="12">                 | **#323cff**      | 50, 60, 255   |
+| Color                   | Hex              | RGB           | 
+| ----------------------- | ---------------- | ------------- |
+| Main Theme Color        | **#009F00**      | 1, 141, 1     |
+| Secondary Theme Color   | **#F28C9E**      | 242, 140, 158 |
+| Main Text Color         | **#FFFFFF**      | 255, 255, 255 |
+| Secondary Text Color    | **#0B510A**      | 11, 81, 10    |
