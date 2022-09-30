@@ -9,6 +9,11 @@ footer p {
 
 footer a {
   color: var(--secondaryColor);
+  transition: .5s;
+}
+
+footer a:hover {
+  color: var(--themeColor);
 }
 
 #footer-container {

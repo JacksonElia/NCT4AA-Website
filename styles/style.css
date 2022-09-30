@@ -14,6 +14,10 @@ html, body {
   font-family: Poppins,"proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
+div {
+  display: block;
+}
+
 h1 {
   font-weight: 800;
   font-style: normal;
@@ -27,6 +31,7 @@ h2 {
   letter-spacing: 0;
   text-transform: none;
   font-size: 3.8vw;
+  color: var(--secondaryColor);
 }
 
 h3 {
@@ -92,6 +97,16 @@ p {
   padding-right: 7%;
 }
 
+#who-we-are-container > p > a {
+  color: var(--themeColor);
+  transition: .5s;
+}
+
+#who-we-are-container > p > a:hover {
+  filter: brightness(1.25);
+}
+
+
 .picture-and-text-div {
   padding: 5%;
   width: 90%;
@@ -150,8 +165,6 @@ p {
   align-items: center;
   justify-content: center;
   width: 100%;
-  height: 100vh;
-  overflow: hidden;
 }
 
 #about-container {
@@ -162,6 +175,35 @@ p {
 
 .page-title {
   color: var(--secondaryColor);
-  padding-top: 6%;
-  font-size: 7vw;
+  padding-top: 5%;
+  padding-bottom: 2.5%;
+  margin: auto;
+  font-size: 7.3vw;
+  text-align: left;
+}
+
+.text-image {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 5%;
+  align-items: center;
+}
+
+.text-image .text {
+  font-weight: 500;
+}
+
+.text-image .image {
+  max-width: 32vw;
+}
+
+#about-container h2 {
+  text-align: left;
+  font-size: 4vw;
+}
+
+#about-container p, ul {
+  text-align: left;
+  font-size: 2.2vw;
+  color: var(--secondaryColor);
 }
