@@ -168,7 +168,7 @@ p {
 }
 
 .page-container {
-  padding: 10%;
+  padding: 10% 10% 5%;
   width: 80%;
   height: 80%;
 }
@@ -221,11 +221,13 @@ p {
   width: 45%;
   padding: 2.5%;
   text-align: center;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .newsletter-text-div h3 {
   margin: 0;
-  padding: 10%;
+  padding: 0 10% 10%;
 }
 
 .newsletter-text-div p {
@@ -252,7 +254,7 @@ p {
 }
 
 .article-container {
-  padding: 15% 27% 5%;
+  padding: 12% 24% 5%;
 }
 
 .article-container h2 {
@@ -261,8 +263,16 @@ p {
 
 .article-container p {
   text-align: left;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  font-weight: lighter;
 }
 
 .article-title {
   font-size: 5vw;
+  padding-bottom: 1.5%;
+}
+
+.article-container .button1 {
+  padding-top: 3%;
 }
