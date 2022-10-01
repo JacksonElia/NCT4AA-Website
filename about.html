@@ -8,7 +8,10 @@
   <link rel="stylesheet" type="text/css" href="styles/header.css">
   <link rel="stylesheet" type="text/css" href="styles/footer.css">
   <link rel="stylesheet" type="text/css" href="styles/buttons.css">
+  <link rel="stylesheet" type="text/css" href="styles/team-images.css">
   <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Poppins"/>
+  <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
   <link rel="icon" type="image/png" href="images/nct4aa_logo.png">
 </head>
 <body>
@@ -25,16 +28,16 @@
     <ul id="main-nav-list">
       <li class="main-nav-item-normal"><a href="index.html">Home</a></li>
       <li class="main-nav-item-normal"><a href="about.html">About</a></li>
-      <li class="main-nav-item-normal"><a href="#">Newsletter</a></li>
-      <li class="main-nav-item-normal" id="main-nav-item-button"><a href="#">Take Action</a></li>
+      <li class="main-nav-item-normal"><a href="newsletter.html">Newsletter</a></li>
+      <li class="main-nav-item-normal" id="main-nav-item-button"><a href="https://www.gofundme.com/f/abortion-access-in-north-carolina?utm_campaign=p_cp%20share-sheet&utm_medium=copy_link_all&utm_source=customer">Take Action</a></li>
     </ul>
     <div id="header-background"></div>
   </div>
 </header>
 
-<section class="about-section">
+<section id="page-section">
 
-  <div id="about-container">
+  <div class="page-container">
 
     <h1 class="page-title">About Us</h1>
 
@@ -54,7 +57,7 @@
     <h2>Our Origin Story</h2>
 
     <p>
-      After the overturn of Roe V. Wade, Caroline, our founder, felt angered by the violation of
+      After the overturn of Roe v. Wade, Caroline, our founder, felt angered by the violation of
       reproductive rights and ended up asking her fellow high school students if they wanted to help
       in some sort of project to fundraise for a local abortion fund. We knew that North Carolina's
       position as one of the few southern states with fewer bans on abortion meant that hundreds to
@@ -64,12 +67,88 @@
     <h2>What We've Achieved</h2>
 
     <ul>
-      <li>Raised over $3000 for the Carolina Abortion Fund</li>
+      <li>Raised over <b>$3000</b> for the Carolina Abortion Fund</li>
       <li>Advocated for abortion access and spoke about our not-for-profit coalition on a local
-        radio show, WHUP 104.7 FM
+        radio show, <b>WHUP 104.7 FM</b>
       </li>
-      <li>Amassed over 450 Instagram followers with over 3000 users reached</li>
+      <li>Amassed over 450 Instagram followers with over <b>3000</b> users reached</li>
+      <li>Organized a benefit night at Carrburritos, raising ~<b>$500</b></li>
+      <li>Held a bake sale in Chapel Hill’s Lake Hogan Farms neighborhood, raising ~<b>$400</b></li>
+      <li>Organized a benefit night at Epilogue Books Chocolate Brews, raising ~<b>$500</b></li>
     </ul>
+
+    <h2>Meet the Team</h2>
+
+    <div id="slideshow-container">
+      <button class="slideshow-button" id="left-slideshow-button" onclick="scrollToLeft()">
+        <i class="icon ion-chevron-left"></i>
+      </button>
+      <div id="slideshow">
+        <div id="0" class="team-member-container">
+          <div class="team-member">
+            <img class="slideshow-image" alt="slideshow image" src="images/abortion-rally-2.jpg">
+            <div class="text-container">
+              <h4>Name</h4>
+              <p>Pro/nouns</p>
+              <p>Position</p>
+            </div>
+          </div>
+        </div>
+        <div id="1" class="team-member-container">
+          <div class="team-member">
+            <img class="slideshow-image" alt="slideshow image" src="images/abortion-rally-2.jpg">
+            <div class="text-container">
+              <h4>Name</h4>
+              <p>Pro/nouns</p>
+              <p>Position</p>
+            </div>
+          </div>
+        </div>
+        <div id="2" class="team-member-container">
+          <div class="team-member">
+            <img class="slideshow-image" alt="slideshow image" src="images/abortion-rally-2.jpg">
+            <div class="text-container">
+              <h4>Name</h4>
+              <p>Pro/nouns</p>
+              <p>Position</p>
+            </div>
+          </div>
+        </div>
+        <div id="3" class="team-member-container">
+          <div class="team-member">
+            <img class="slideshow-image" alt="slideshow image" src="images/abortion-rally-2.jpg">
+            <div class="text-container">
+              <h4>Name</h4>
+              <p>Pro/nouns</p>
+              <p>Position</p>
+            </div>
+          </div>
+        </div>
+        <div id="4" class="team-member-container">
+          <div class="team-member">
+            <img class="slideshow-image" alt="slideshow image" src="images/abortion-rally-2.jpg">
+            <div class="text-container">
+              <h4>Name</h4>
+              <p>Pro/nouns</p>
+              <p>Position</p>
+            </div>
+          </div>
+        </div>
+        <div id="5" class="team-member-container">
+          <div class="team-member">
+            <img class="slideshow-image" alt="slideshow image" src="images/abortion-rally-2.jpg">
+            <div class="text-container">
+              <h4>Name</h4>
+              <p>Pro/nouns</p>
+              <p>Position</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="slideshow-button" id="right-slideshow-button" onclick="scrollToRight()">
+        <i class="icon ion-chevron-right"></i>
+      </button>
+    </div>
 
   </div>
 
@@ -84,12 +163,13 @@
       </p>
     </div>
     <div id="footer-credits">
-      <p>Made by <a href="https://github.com/Traptricker">Jack</a></p>
+      <p>Made by <a href="https://traptricker.github.io/index.html">Jack</a></p>
     </div>
   </div>
 </footer>
 
 <!-- Scripts -->
+<script src="scripts/team-images.js"></script>
 
 </body>
 </html>

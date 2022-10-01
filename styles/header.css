@@ -21,6 +21,7 @@
   align-items: center;
   padding: 0.2% 8% 0.2% 5%;
   position: absolute;
+  top: 0;
   width: 100%;
   z-index: 3;
   box-sizing: border-box;
@@ -67,6 +68,7 @@
   list-style: none;
   gap: 6%;
   width: 60%;
+  font-size: 2.1vw;
 }
 
 .main-nav-item {

@@ -160,14 +160,14 @@ p {
 
 .newsletter-section {}
 
-.about-section {
+#page-section {
   display: flex;
   align-items: center;
   justify-content: center;
   width: 100%;
 }
 
-#about-container {
+.page-container {
   padding: 10%;
   width: 80%;
   height: 80%;
@@ -197,13 +197,72 @@ p {
   max-width: 32vw;
 }
 
-#about-container h2 {
+#page-container h2 {
   text-align: left;
   font-size: 4vw;
 }
 
-#about-container p, ul {
+#page-container p, ul {
   text-align: left;
   font-size: 2.2vw;
   color: var(--secondaryColor);
+}
+
+.newsletter-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding-bottom: 5%;
+}
+
+.newsletter-text-div {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  padding: 2.5%;
+  text-align: center;
+}
+
+.newsletter-text-div h3 {
+  margin: 0;
+  padding: 10%;
+}
+
+.newsletter-text-div p {
+  margin-top: 0;
+  text-align: center!important;
+}
+
+.newsletter-text-div a {
+  color: var(--themeColor);
+  font-size: 1.5vw;
+  transition: .5s;
+  text-decoration: underline;
+}
+
+.newsletter-text-div a:hover {
+  filter: brightness(1.25);
+}
+
+.newsletter-image-div {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  padding: 2.5%;
+}
+
+.article-container {
+  padding: 15% 27% 5%;
+}
+
+.article-container h2 {
+  margin: 0;
+}
+
+.article-container p {
+  text-align: left;
+}
+
+.article-title {
+  font-size: 5vw;
 }
