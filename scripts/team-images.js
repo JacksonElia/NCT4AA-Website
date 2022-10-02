@@ -1,4 +1,4 @@
-const numberOfImages = 6;
+const numberOfImages = 14;
 let currentImage = 0;  // There's always going to be 3 images on the screen
 let frameKeep = 0
 
