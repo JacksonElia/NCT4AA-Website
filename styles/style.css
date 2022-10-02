@@ -158,8 +158,6 @@ p {
   width: 47%;
 }
 
-.newsletter-section {}
-
 #page-section {
   display: flex;
   align-items: center;
@@ -215,6 +213,15 @@ p {
   padding-bottom: 5%;
 }
 
+.newsletter-container-mobile {
+  display: none;
+}
+
+.newsletter-container-mobile {
+  padding-top: 6vw;
+  padding-bottom: 2vw;
+}
+
 .newsletter-text-div {
   display: flex;
   flex-direction: column;
@@ -247,10 +254,11 @@ p {
 }
 
 .newsletter-image-div {
-  display: flex;
-  flex-direction: column;
   width: 45%;
   padding: 2.5%;
+}
+
+.newsletter-image-div img {
 }
 
 .article-container {
@@ -306,6 +314,10 @@ p {
     font-size: 3.4vw;
   }
 
+  #logo img, #logo-normal img {
+    width: 11vw!important;
+  }
+
   .greeting-text {
     font-size: 14vw;
     text-align: center;
@@ -337,6 +349,55 @@ p {
 
   #take-action-container .button-div {
     padding-bottom: 8%;
+  }
+
+  .page-container {
+    padding-top: 20vw;
+  }
+
+  .page-title {
+    padding-top: 9%;
+  }
+
+  .page-container h2 {
+    font-size: 8vw;
+  }
+
+  .page-container p, ul {
+    font-size: 4vw;
+  }
+
+  .page-container .text-image {
+    display: block;
+  }
+
+  .page-container img {
+    max-width: 100%!important;
+    width: 100%;
+  }
+
+  .newsletter-container {
+    display: none;
+  }
+
+  .newsletter-container-mobile {
+    display: block;
+  }
+
+  .newsletter-text-div {
+    width: 100%;
+  }
+
+  .newsletter-text-div h3 {
+    padding: 0 0 1.5vw;
+  }
+
+  .newsletter-text-div a {
+    font-size: 4vw;
+  }
+
+  .article-container {
+    padding: 20vw 10% 10%;
   }
 
 }
