@@ -45,6 +45,10 @@ p {
   font-size: 1.5vw;
 }
 
+a {
+  cursor: pointer;
+}
+
 .highlighted {
   background-color: rgba(1, 141, 1, .65);
 }
@@ -116,12 +120,12 @@ p {
 }
 
 .who-are-we-section .image-div {
-  float: left;
+  float: right;
   width: 47%;
 }
 
 .who-are-we-section .text-and-button-div {
-  float: right;
+  float: left;
   width: 47%;
 }
 
@@ -149,13 +153,37 @@ p {
 }
 
 .take-action-section .image-div {
-  float: right;
+  float: left;
   width: 47%;
 }
 
 .take-action-section .text-and-button-div {
+  float: right;
+  width: 47%;
+}
+
+.video-section {
+  width: 100%;
+  overflow: hidden;
+}
+
+#video-container {
+  padding-top: 3%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+#video-container .text-div {
   float: left;
   width: 47%;
+  padding-top: 13.5%;
+  padding-bottom: 13.5%;
+}
+
+#video-container video {
+  float: right;
+  width: 43%;
+  padding: 3%;
 }
 
 #page-section {
@@ -338,17 +366,27 @@ p {
   }
 
   .picture-and-text-div .image-div {
-    float: none;
-    width: 100%;
+    float: none!important;
+    width: 100%!important;
   }
 
   .picture-and-text-div .text-and-button-div {
-    float: none;
-    width: 100%;
+    float: none!important;
+    width: 100%!important;
   }
 
   #take-action-container .button-div {
     padding-bottom: 8%;
+  }
+
+  .video-section .text-div, video {
+    float: none!important;
+    width: 100%!important;
+  }
+
+  .video-section .text-div {
+    padding-top: 0!important;
+    padding-bottom: 1%!important;
   }
 
   .page-container {

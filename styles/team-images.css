@@ -29,6 +29,7 @@
   text-align: center;
   z-index: 2;
   border-width: 0;
+  cursor: pointer;
 }
 
 .slideshow-button:hover {
